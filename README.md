@@ -18,4 +18,7 @@ Main point was to get familiar with React, try out the React hooks, routing syst
 </ul>
 <br />
 <h4>preview of Task Tracker app:</h4>
-![task tracker preview](https://user-images.githubusercontent.com/76999282/148055235-510451ac-df72-4442-b032-9060520f3e0f.png)
+<br />
+
+![Screenshot 2022-01-04 at 11 24 27](https://user-images.githubusercontent.com/76999282/148055506-182e0735-62ad-4e83-b8f2-cefabdc04811.png)
+
