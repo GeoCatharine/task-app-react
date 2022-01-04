@@ -5,6 +5,7 @@ import Tasks from './components/Tasks'
 import AddTask from './components/AddTask'
 import Footer from './components/Footer'
 import About from './components/About'
+import TaskDetails from './components/TaskDetails'
 
 function App() {
   const [showAddTask, setShowAddTask] = useState (false)
@@ -85,7 +86,7 @@ function App() {
       <div className="container">
         <Header onAdd={() => setShowAddTask(!showAddTask)} showAdd= {showAddTask}/>
         <Routes>
-          <Route path='/' exact element={
+          <Route path='/' element={
             <Fragment>
               {showAddTask && <AddTask onAdd={addTask}/>}
               {tasks.length > 0 ? (
@@ -99,6 +100,7 @@ function App() {
             </Fragment>
           } />
           <Route path='/about' element={< About />} />
+          <Route path='/task/:id' element={< TaskDetails />} />
         </Routes>
         <Footer />
       </div>
