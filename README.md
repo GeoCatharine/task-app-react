@@ -3,7 +3,7 @@
 <p>Code along exercise based on React JS Crash Course video by Traversy Media.<br/>
 Main point was to get familiar with React, try out the React hooks, routing system and basically figuring out differences between Vue & React.</p>
 <br />
-<h3>succesfuly used:</h3>
+<h3>successfully used:</h3>
 <br />
 <ul>
   <li>useState, useEffect</li>
